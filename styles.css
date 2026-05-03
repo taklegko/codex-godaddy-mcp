@@ -80,6 +80,14 @@ h2 {
   line-height: 1.45;
 }
 
+.note {
+  max-width: 620px;
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 .command {
   width: fit-content;
   max-width: 100%;

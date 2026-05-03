@@ -1,7 +1,7 @@
 {
   "name": "godaddy-domains",
-  "version": "0.1.0",
-  "description": "Codex plugin wrapper for GoDaddy's read-only Domains MCP endpoint.",
+  "version": "0.1.1",
+  "description": "Codex plugin wrapper for GoDaddy's read-only Domains MCP endpoint for availability checks and domain ideas.",
   "author": {
     "name": "Marina Eremina",
     "email": "taklegko@outlook.com",
@@ -33,8 +33,8 @@
     "termsOfServiceURL": "https://github.com/taklegko/codex-godaddy-mcp#terms",
     "defaultPrompt": [
       "Check if crispforge.com is available.",
-      "Suggest domains for an AI bookkeeping app.",
-      "Compare these domain ideas: zenledger.io, ledgerzen.com."
+      "Find domain ideas for a privacy-first analytics product.",
+      "Find available domains for an AI bookkeeping app."
     ],
     "brandColor": "#111111"
   }

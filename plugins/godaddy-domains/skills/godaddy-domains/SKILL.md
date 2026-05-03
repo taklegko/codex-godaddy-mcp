@@ -1,6 +1,6 @@
 ---
 name: godaddy-domains
-description: Use GoDaddy's read-only Domains MCP endpoint to check domain availability and generate domain suggestions.
+description: Use when checking domain availability, finding available domains, generating domain ideas, brainstorming names, suggesting domains for a product/startup/company, or comparing domain options with GoDaddy Domains MCP.
 ---
 
 # GoDaddy Domains
@@ -8,7 +8,9 @@ description: Use GoDaddy's read-only Domains MCP endpoint to check domain availa
 Use this skill when the user wants to:
 
 - Check whether one or more domain names are available.
+- Find available domain names for a product, startup, company, app, newsletter, community, or side project.
 - Generate domain name ideas from keywords, product descriptions, company descriptions, or naming constraints.
+- Brainstorm brand names where domain availability matters.
 - Compare domain options by availability and fit.
 
 The bundled MCP server is GoDaddy's public Domains MCP endpoint:
@@ -27,6 +29,8 @@ No GoDaddy API key is required for the read-only MCP endpoint.
 
 ## Prompting Guidance
 
+When this skill applies, use the `godaddy-domains` MCP server. Do not answer from general naming intuition alone unless the MCP server is unavailable.
+
 For exact availability checks, pass the requested domain name or names directly to the MCP tool.
 
 For ideation, preserve the user's business context and constraints. Useful constraints include preferred TLDs, tone, length, keywords to include or avoid, and whether the name should sound technical, premium, playful, local, or broad.
@@ -35,5 +39,7 @@ Example user requests:
 
 - "Check whether example.ai is available."
 - "Find domain ideas for a privacy-first analytics product."
+- "Find available domains for a privacy-first analytics product."
 - "Suggest short `.com` domains for an indie macOS utility."
+- "Brainstorm domain names for a B2B finance startup."
 - "Compare these options: crispforge.com, crispforge.io, getcrispforge.com."

@@ -14,7 +14,9 @@ Add this marketplace to Codex:
 codex plugin marketplace add taklegko/codex-godaddy-mcp
 ```
 
-Then open Codex plugin settings, install **GoDaddy Domains**, and enable it for your workspace.
+This command adds the marketplace only. It does not install or enable the plugin by itself.
+
+Then open Codex plugin settings, find **GoDaddy Domains** under the **Taklegko Plugins** marketplace, install it, and enable it for your workspace. Restart the current Codex session if the plugin was installed while the session was already running.
 
 ## What It Does
 
@@ -44,6 +46,7 @@ The bundled MCP server points to:
 
 - "Check if crispforge.com is available."
 - "Find domain ideas for a privacy-first analytics product."
+- "Find available domains for a privacy-first analytics product."
 - "Suggest short `.com` domains for an indie macOS utility."
 - "Compare these options: crispforge.com, crispforge.io, getcrispforge.com."
 
