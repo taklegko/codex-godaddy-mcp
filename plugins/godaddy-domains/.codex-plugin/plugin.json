@@ -1,0 +1,41 @@
+{
+  "name": "godaddy-domains",
+  "version": "0.1.0",
+  "description": "Codex plugin wrapper for GoDaddy's read-only Domains MCP endpoint.",
+  "author": {
+    "name": "Marina Eremina",
+    "email": "taklegko@outlook.com",
+    "url": "https://github.com/taklegko"
+  },
+  "homepage": "https://taklegko.github.io/codex-godaddy-mcp/",
+  "repository": "https://github.com/taklegko/codex-godaddy-mcp",
+  "license": "MIT",
+  "keywords": [
+    "godaddy",
+    "domains",
+    "mcp",
+    "codex",
+    "availability"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "GoDaddy Domains",
+    "shortDescription": "Check domain availability and brainstorm domain ideas.",
+    "longDescription": "A community Codex plugin wrapper around GoDaddy's public read-only Domains MCP endpoint for domain availability checks and suggestions.",
+    "developerName": "Marina Eremina",
+    "category": "Productivity",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://taklegko.github.io/codex-godaddy-mcp/",
+    "privacyPolicyURL": "https://github.com/taklegko/codex-godaddy-mcp#privacy",
+    "termsOfServiceURL": "https://github.com/taklegko/codex-godaddy-mcp#terms",
+    "defaultPrompt": [
+      "Check if crispforge.com is available.",
+      "Suggest domains for an AI bookkeeping app.",
+      "Compare these domain ideas: zenledger.io, ledgerzen.com."
+    ],
+    "brandColor": "#111111"
+  }
+}

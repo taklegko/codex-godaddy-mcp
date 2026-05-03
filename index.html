@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A community Codex plugin wrapper for GoDaddy's public read-only Domains MCP endpoint.">
+    <title>GoDaddy Domains MCP for Codex</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="eyebrow">Codex marketplace plugin</p>
+        <h1 id="hero-title">GoDaddy Domains MCP for Codex</h1>
+        <p class="lead">
+          Check domain availability and brainstorm domain ideas from Codex using GoDaddy's public read-only MCP endpoint.
+        </p>
+        <div class="command" role="group" aria-label="Install command">
+          <span>$</span>
+          <code>codex plugin marketplace add taklegko/codex-godaddy-mcp</code>
+        </div>
+      </section>
+
+      <section class="grid" aria-label="Plugin details">
+        <article>
+          <h2>What it does</h2>
+          <ul>
+            <li>Checks availability for one or more domains.</li>
+            <li>Suggests domain ideas from keywords or product descriptions.</li>
+            <li>Helps compare naming options.</li>
+          </ul>
+        </article>
+
+        <article>
+          <h2>Read-only</h2>
+          <p>
+            This wrapper does not buy domains, change DNS, inspect account data, or perform GoDaddy account actions.
+          </p>
+        </article>
+      </section>
+
+      <section aria-labelledby="prompts-title">
+        <h2 id="prompts-title">Example prompts</h2>
+        <div class="prompts">
+          <p>"Check if crispforge.com is available."</p>
+          <p>"Find domain ideas for a privacy-first analytics product."</p>
+          <p>"Suggest short .com domains for an indie macOS utility."</p>
+          <p>"Compare crispforge.com, crispforge.io, and getcrispforge.com."</p>
+        </div>
+      </section>
+
+      <section class="links" aria-labelledby="links-title">
+        <h2 id="links-title">Links</h2>
+        <a href="https://github.com/taklegko/codex-godaddy-mcp">GitHub</a>
+        <a href="https://www.godaddy.com/resources/news/inside-the-godaddy-domains-mcp-server">GoDaddy Domains MCP</a>
+        <a href="https://developers.openai.com/codex/plugins/build">Codex plugin docs</a>
+      </section>
+    </main>
+  </body>
+</html>
