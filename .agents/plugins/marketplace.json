@@ -1,7 +1,7 @@
 {
-  "name": "taklegko-plugins",
+  "name": "easy-codex-plugins",
   "interface": {
-    "displayName": "Taklegko Plugins"
+    "displayName": "Easy Codex Plugins"
   },
   "plugins": [
     {

@@ -16,7 +16,7 @@ codex plugin marketplace add taklegko/codex-godaddy-mcp
 
 This command adds the marketplace only. It does not install or enable the plugin by itself.
 
-Then open Codex plugin settings, find **GoDaddy Domains** under the **Taklegko Plugins** marketplace, install it, and enable it for your workspace. Restart the current Codex session if the plugin was installed while the session was already running.
+Then open Codex plugin settings, find **GoDaddy Domains** under the **Easy Codex Plugins** marketplace, install it, and enable it for your workspace. Restart the current Codex session if the plugin was installed while the session was already running.
 
 ## What It Does
 
